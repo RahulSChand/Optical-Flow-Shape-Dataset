@@ -6,6 +6,8 @@ Each datapoint consist of two images with a randomly generated shape imposed on 
 
 `data_shape.py` is used to create datapoints where a single shape is present
 
+![alt text]()
+
 `data_shape_double.py` is used to create datapoints where two shapes are present in each image
 
 
