@@ -1,6 +1,6 @@
 # Optical-Flow-Shape-Dataset
 
-##Code to create shape data set for optical flow tasks on fly
+## Code to create shape data set for optical flow tasks on fly
 
 Each datapoint consist of two images with a randomly generated shape imposed on a black background and its calculated optical flow.
 
