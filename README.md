@@ -2,7 +2,7 @@
 
 # Why? 👀
 
-If you want to **sanity test** 🧪 your deep learning models & don't want to spend time ⌚ to run one full iteration on the "Flying Chairs" dataset, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. ***If your model fails here, you damn well know it will not work on "Flying chairs".*** 😭
+If you want to **sanity test** 🧪 your deep learning model & don't want to spend time ⌚ & effort 🏋️‍♀️ to run one full iteration on the "Flying Chairs" dataset, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. ***If your model fails here, you damn well know it will not work on "Flying chairs".*** 😭
 
 #### What is an optical flow dataset ❓
   1. Optical flow datasets (like `FLying Chairs`) consist of 3 points. `Image-1`, `Image-2` & an array of shape (Height x Width x 2) which stores the optical flow b/w `Image-1` & `Image-2`
