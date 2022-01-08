@@ -1,4 +1,4 @@
-## Quickly create toy datasets to test your optical flow estimation models on fly.
+## Quickly create toy optical flow datasets on fly to test your deep learning models. ♀️
 
 This code can be used to quickly generate optical flow datasets to test & debug your deep-learning models. 🚴‍♀️
 
