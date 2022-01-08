@@ -12,7 +12,7 @@ If you want to **sanity test** 🧪 your deep learning models & don't want to sp
   2. Standard optical flow datasets are `big` & `harder` 🔴 to test with (& rightly so, since these datasets are based on real or close to real life images & scenarios). So why do I need a toy dataset? 🤷‍♂️ 
   
   
-  To any one wondering what "flying chair" is? It is one of the standard datasets that is used to compare performance of an optical flow model (https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs). `Think of this as being the MNIST of optical flow estimation research.`
+  To any one wondering what "flying chair" is? It is one of the standard datasets that is used to compare performance of an optical flow model (https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs). `Think of it as being the GLUE/CIFAR‑100 of optical flow estimation research.`
 
 
 To approximate the effectiveness of the model on more complex real world data you can run `data_shapes_double.py` which creates dataset with greater occlusion.
