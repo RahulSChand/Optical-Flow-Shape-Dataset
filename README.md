@@ -1,8 +1,19 @@
-# Optical-Flow-Shape-Dataset
+## Quickly create toy datasets to test your optical flow estimation models on fly.
 
-## Code to create data set for optical flow tasks on fly
+This code can be used to quickly generate optical flow datasets to test & debug your deep-learning models. 🚴‍♀️
 
-This code can be used to quickly generate optical flow data and test your models. To approximate the effectiveness of the model on more complex real world data you can run `data_shapes_double.py` which creates dataset with greater occlusion.
+# Why? 👀
+
+If you want to **sanity test** 🧪 your deep learning models & don't want to spend time ⌚ to run one full iteration on lets say flying chair model, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. ***If your model fails here, you damn well know it ain't gonna work on flying chairs.*** 😭
+
+#### What is an optical flow dataset ❓
+  1. Optical flow datasets (like `flying chair`) consist of 3 points. `Image-1`, `Image-2` & an array of shape (Height x Width x 2) which stores the optical flow b/w `Image-1` & `Image-2`
+
+  2. Standard optical flow datasets are `big` & `harder` 🔴 to test with (& rightly so, since these datasets are based on real or close to real life images & scenarios). So why do I need a toy dataset? 🤷‍♂️ 
+  
+
+
+To approximate the effectiveness of the model on more complex real world data you can run `data_shapes_double.py` which creates dataset with greater occlusion.
 
 Each datapoint consist of two images with a randomly generated shape imposed on a black background and its calculated optical flow.
 
