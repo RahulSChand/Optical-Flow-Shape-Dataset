@@ -14,12 +14,15 @@ ______
   
   To any one wondering what "flying chair" is? It is a standard dataset that is used to compare performance of optical flow models (https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html#flyingchairs). `Think of it as being the GLUE/CIFAR‑100 of optical flow estimation research.`
 
+______
 
-To approximate the effectiveness of the model on more complex real world data you can run `data_shapes_double.py` which creates dataset with greater occlusion.
+### Code overview 👩‍💻
+  1. `data_shapes.py` is used to create datapoints where a single shape is moving.
+  2. `data_shapes_double.py` is used to create datapoints with 2 shapes, one can customize the % of occlusion to vary the difficulty of the points.
 
 Each datapoint consist of two images with a randomly generated shape imposed on a black background and its calculated optical flow.
 
-`data_shapes.py` is used to create datapoints where a single shape is present
+##### Single shape 
 
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20single/0_gt.png)
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20single/0_img1.png)
@@ -29,7 +32,7 @@ Each datapoint consist of two images with a randomly generated shape imposed on 
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20single/385_img1.png)
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20single/385_img2.png)
 
-`data_shapes_double.py` is used to create datapoints where two shapes are present in each image
+##### Double shape
 
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20double/32_flow0.png)
 ![alt text](https://github.com/RahulSChand/Optical-Flow-Shape-Dataset/blob/master/sample%20data%20double/32_img1.png)
