@@ -4,10 +4,10 @@ This code can be used to quickly generate optical flow datasets to test & debug 
 
 # Why? 👀
 
-If you want to **sanity test** 🧪 your deep learning models & don't want to spend time ⌚ to run one full iteration on lets say flying chair model, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. ***If your model fails here, you damn well know it ain't gonna work on flying chairs.*** 😭
+If you want to **sanity test** 🧪 your deep learning models & don't want to spend time ⌚ to run one full iteration on the "Flying Chairs" dataset, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. ***If your model fails here, you damn well know it ain't gonna work on "Flying chairs".*** 😭
 
 #### What is an optical flow dataset ❓
-  1. Optical flow datasets (like `flying chair`) consist of 3 points. `Image-1`, `Image-2` & an array of shape (Height x Width x 2) which stores the optical flow b/w `Image-1` & `Image-2`
+  1. Optical flow datasets (like `FLying Chairs`) consist of 3 points. `Image-1`, `Image-2` & an array of shape (Height x Width x 2) which stores the optical flow b/w `Image-1` & `Image-2`
 
   2. Standard optical flow datasets are `big` & `harder` 🔴 to test with (& rightly so, since these datasets are based on real or close to real life images & scenarios). So why do I need a toy dataset? 🤷‍♂️ 
   
