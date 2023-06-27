@@ -1,6 +1,6 @@
 ## Quickly create toy optical flow datasets on fly to test your deep learning models.
 
-# Why? 👀
+# Why?
 
 If you want to **sanity test** 🧪 your deep learning model & don't want to **spend time** ⌚ **& effort** 🏋️‍♀️ to run one full iteration on the "Flying Chairs" dataset, you can **use this library to generate (easier, smaller & customizable) toy optical flow datasets**. 
 
