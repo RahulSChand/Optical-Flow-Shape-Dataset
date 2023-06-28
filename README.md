@@ -1,4 +1,4 @@
-## Quickly create toy optical flow datasets on fly to test your deep learning models.
+## Fast library to create toy optical flow datasets on fly to test your deep learning models.
 
 # Why?
 
